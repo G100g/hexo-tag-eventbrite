@@ -1,0 +1,26 @@
+{
+  "name": "hexo-tag-eventbrite",
+  "version": "0.0.1",
+  "main": "index",
+  "author": {
+    "name": "Giorgio Aquino",
+    "email": "me@g100g.net",
+    "url": "http://g100g.net/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:g100g/hexo-tag-eventbrite.git"
+  },
+  "dependencies": {
+    "lodash": "^4.16.5",
+    "moment": "^2.15.2",
+    "nbrite": "^0.2.0"
+  },
+  "description": "A hexo tag for inserting eventbrite events",
+  "maintainers": [
+    {
+      "name": "G100g",
+      "email": "me@g100g.net"
+    }
+  ]
+}

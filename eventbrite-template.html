@@ -1,0 +1,10 @@
+<h2>Events</h2>
+<sl>
+  <% events.forEach(function (event) { %>
+    <dt><a href="<%= event.url %>" target="_blank"><%= event.name.text %></a></dt>
+    <dd>
+      <p><%= event.start.date %> - <%= event.duration %> minutes</p>
+      <%= event.description.html %>
+    </dd>
+  <% }); %>
+</dl>
